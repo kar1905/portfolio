@@ -1,0 +1,13 @@
+/* html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100dvh;
+    scroll-snap-type: none;
+}
+
+footer{
+    scroll-snap-type: none;
+} */
