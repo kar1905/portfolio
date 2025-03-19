@@ -33,7 +33,7 @@ export default function Hero() {
           src={themeIcon}
           alt="Color Mode Icon"
           title="Switch Theme"
-          />
+        />
       </div>
       <div className={styles.info}>
         <h1>
@@ -45,17 +45,17 @@ export default function Hero() {
           {/* <a href="https://twitter.com">
             <img src={twitterIcon} alt="twitter" />
           </a> */}
-          <a href="https://github.com">
+          <a href="https://github.com/kar1905">
             <img src={githubIcon} alt="github" />
           </a>
-          <a href="https://linkedin.com">
+          <a href="https://www.linkedin.com/in/karan-chourasiya-238144211/">
             <img src={linkedinIcon} alt="linkedin" />
           </a>
         </span>
         <p className={styles.description}>
           Here's where I try to convince you I know what I'm doing.{" "}
         </p>
-        <a href={CV} download>
+        <a href="https://drive.google.com/file/d/14HUvOcbq6Oiiv6JuzaQwxHonsjjHIqxx/view?usp=sharing">
           <button className="hover">Resume</button>
         </a>
       </div>
