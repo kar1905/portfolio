@@ -55,7 +55,10 @@ export default function Hero() {
         <p className={styles.description}>
           Here's where I try to convince you I know what I'm doing.{" "}
         </p>
-        <a href="https://drive.google.com/file/d/14HUvOcbq6Oiiv6JuzaQwxHonsjjHIqxx/view?usp=sharing">
+        <a
+          href="https://drive.google.com/file/d/14HUvOcbq6Oiiv6JuzaQwxHonsjjHIqxx/view?usp=sharing"
+          target="_blank"
+        >
           <button className="hover">Resume</button>
         </a>
       </div>
