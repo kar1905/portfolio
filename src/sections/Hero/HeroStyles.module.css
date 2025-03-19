@@ -6,6 +6,7 @@
     text-align: center;
     height: 100dvh;
     min-height: 500px;
+
     .hero {
         max-width: 200px;
     }
@@ -25,7 +26,7 @@
     }
 
     a {
-        width: fit;
+        width: fit-content;
         align-self: center;
     }
 
@@ -57,10 +58,12 @@
 .colorModeContainer {
     position: relative;
 }
-.colorModeContainer img {
-    width: 35px;
-    object-fit: contain;
-}
+
+/* .colorModeContainer img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+} */
 
 .colorMode {
     position: absolute;
@@ -73,7 +76,7 @@
 }
 
 .description {
-    max-width: 30ch;
+    max-width: 24ch;
 }
 
 .info {
@@ -98,8 +101,8 @@
 @media (width >=1400px) {
     .container {
         .hero {
-            max-width: 350px;
-            width: 350px;
+            max-width: 400px;
+            width: 400px;
         }
     }
 }
